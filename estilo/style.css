@@ -211,3 +211,68 @@ footer a:hover{
     text-decoration: underline;
     color: var(--cor1);
 }
+
+
+/*ABOUT*/
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+}
+
+.about img{
+    margin-top: 20px;
+    max-width: 200px; 
+    border-radius: 50%;
+    
+}
+
+.about p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.about-a{
+    text-decoration: none;
+    background-color: var(--cor3);
+    color: var(--color2);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.about-a:hover{
+    filter: contrast(2);
+}
+
+.about h1{
+    position: relative;
+}
+
+.about h1::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(--cor5);
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        max-width: 350px;
+        margin: 180px auto;
+    }
+}
+
+/* Estilos para telas menores (até 768px) */
+@media screen and (max-width: 768px) {
+    .about {
+        max-width: 80%;
+        margin: 180px auto;
+    }
+}
