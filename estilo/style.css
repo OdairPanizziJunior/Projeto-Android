@@ -218,9 +218,9 @@ footer a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    max-width: 350px;
+    justify-content: center; 
 }
+
 
 .about img{
     margin-top: 20px;
@@ -231,17 +231,16 @@ footer a:hover{
 
 .about p{
     margin-top: 20px;
-    margin-bottom: 20px;
     text-align: center;
     max-width: 600px;
     font-family: var(--fonte-padrao);
-    font-weight: lighter;
 }
+
 
 .about-a{
     text-decoration: none;
     background-color: var(--cor3);
-    color: var(--color2);
+    color: var(--cor5);
     border-radius: 10px;
     padding: 10px 20px;
     font-family: var(--fonte-android);
@@ -253,8 +252,6 @@ footer a:hover{
 
 .about h1{
     position: relative;
-    font-family: var(--fonte-android);
-    font-size: 31px;
 }
 
 .about h1::before{
@@ -264,7 +261,7 @@ footer a:hover{
     left: 0;
     width: 50px;
     height: 2px;
-    background-color: var(--cor5);
+    background-color: var(--cor3);
 }
 
 @media screen and (min-width: 768px) {
@@ -281,3 +278,4 @@ footer a:hover{
         margin: 180px auto;
     }
 }
+
