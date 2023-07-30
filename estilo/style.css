@@ -244,6 +244,7 @@ footer a:hover{
     border-radius: 10px;
     padding: 10px 20px;
     font-family: var(--fonte-android);
+    margin-top: 10px;
 }
 
 .about-a:hover{
@@ -275,7 +276,7 @@ footer a:hover{
 @media screen and (max-width: 768px) {
     .about {
         max-width: 80%;
-        margin: 180px auto;
+        margin: 50px auto;
     }
 }
 
